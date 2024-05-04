@@ -1,0 +1,10 @@
+package br.com.portfolio.crud.config;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class TestConfig {
+	
+	
+
+}

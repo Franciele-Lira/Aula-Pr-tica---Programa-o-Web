@@ -1,0 +1,13 @@
+package br.com.portfolio.crud.resources.exceptions;
+
+import java.time.Instant;
+
+public class StandardError {
+	
+	private Instant timestamp;
+	private Instant  status;
+	private String  error;
+	private String message;
+	private String path;
+
+}

@@ -1,0 +1,23 @@
+package br.com.portfolio.crud.services;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import br.com.portfolio.crud.entites.User;
+import br.com.portfolio.crud.repositories.UserRepository;
+
+
+
+@Service
+public class UserService {
+ 
+	@Autowired
+	private  UserRepository repository;
+	
+	public List<User> findAll(){
+		return repository.findAll();
+				
+	}
+}
